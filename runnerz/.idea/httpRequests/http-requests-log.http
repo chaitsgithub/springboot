@@ -1,0 +1,195 @@
+GET http://localhost:8080/api/runs
+
+<> 2024-11-01T190134.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-11-01T190058.200.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+<> 2024-10-30T104153.400.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T19:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+<> 2024-10-30T104140.400.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Evening Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T19:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+<> 2024-10-30T104121.400.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Evening Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T19:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+<> 2024-10-30T103835.400.json
+
+###
+
+GET http://localhost:8080/api/runs/99
+
+<> 2024-10-30T102602.404.json
+
+###
+
+GET http://localhost:8080/api/runs/5
+
+<> 2024-10-30T102345.404.json
+
+###
+
+GET http://localhost:8080/api/runs/1
+
+<> 2024-10-30T102340.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T102312.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101827.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101753.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101714.200.json
+
+###
+
+DELETE http://localhost:8080/api/runs/5
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101630.200.json
+
+###
+
+PUT http://localhost:8080/api/runs/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Morning Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+###
+
+PUT http://localhost:8080/api/runs/5
+Content-Type: application/json
+{:
+  "id": 5,
+  "title": "Day#3 Morning Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}:
+
+<> 2024-10-30T101520.400.html
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101410.200.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+    "id": 5,
+    "title": "Day#3 Evening Run",
+    "startedOn": "2024-10-29T20:23:40.5083633",
+    "completedOn": "2024-10-29T21:08:40.5083633",
+    "miles": 20,
+    "location": "OUTDOOR"
+}
+
+###
+
+GET http://localhost:8080/api/runs/1
+
+<> 2024-10-30T101147.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+
+<> 2024-10-30T101046.200.json
+
+###
+
+GET http://localhost:8080/api/runs/
+
+<> 2024-10-30T101038.404.json
+
+###
+

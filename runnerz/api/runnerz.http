@@ -1,0 +1,63 @@
+### Get All Runs
+GET http://localhost:8080/api/runs
+
+### Get Run by ID
+GET http://localhost:8080/api/runs/1
+
+### Get Run by ID not found
+GET http://localhost:8080/api/runs/99
+
+### Create a Run
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Evening Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+### Create a Run - Invalid Run Times
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Evening Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T19:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+### Create a Run - Invalid Title
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+### Update a Run
+PUT http://localhost:8080/api/runs/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "Day#3 Morning Run",
+  "startedOn": "2024-10-29T20:23:40.5083633",
+  "completedOn": "2024-10-29T21:08:40.5083633",
+  "miles": 20,
+  "location": "OUTDOOR"
+}
+
+### Delete a Run
+DELETE http://localhost:8080/api/runs/5

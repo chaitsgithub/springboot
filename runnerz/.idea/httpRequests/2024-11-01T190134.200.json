@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Day#1 IM Morning Run",
+    "startedOn": "2024-11-01T19:01:26.7497948",
+    "completedOn": "2024-11-01T19:31:26.7497948",
+    "miles": 10,
+    "location": "INDOOR"
+  },
+  {
+    "id": 2,
+    "title": "Day#1 IM Evening Run",
+    "startedOn": "2024-11-01T19:01:26.7507943",
+    "completedOn": "2024-11-01T19:46:26.7507943",
+    "miles": 15,
+    "location": "INDOOR"
+  },
+  {
+    "id": 3,
+    "title": "Day#2 IM Morning Run",
+    "startedOn": "2024-11-01T19:01:26.7507943",
+    "completedOn": "2024-11-01T19:46:26.7507943",
+    "miles": 17,
+    "location": "INDOOR"
+  },
+  {
+    "id": 4,
+    "title": "Day#2 IM Evening Run",
+    "startedOn": "2024-11-01T19:01:26.7507943",
+    "completedOn": "2024-11-01T20:01:26.7507943",
+    "miles": 20,
+    "location": "INDOOR"
+  }
+]
